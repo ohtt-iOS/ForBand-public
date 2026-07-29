@@ -31,15 +31,26 @@
 <div class="wrap">
   <div class="overline">FORBAND</div>
   <h1>개인정보처리방침</h1>
-  <div class="date">시행일: 2026년 7월 23일</div>
+  <div class="date">시행일: 2026년 7월 29일</div>
 
   <div class="card">
-    <strong>요약: ForBand는 어떠한 개인정보도 수집하지 않습니다.</strong><br>
-    계정도, 서버도, 광고도, 분석 도구도 없습니다. 모든 데이터는 사용자의 기기 안에만 저장됩니다.
+    <strong>요약: ForBand는 계정·이름·연락처 등 개인 식별 정보를 수집하지 않습니다.</strong><br>
+    회원가입도, 광고도 없습니다. 곡·녹음 등 모든 콘텐츠는 사용자의 기기 안에만 저장되며,
+    앱 개선을 위한 <strong>익명 사용 통계와 오류(크래시) 진단 데이터</strong>만 수집합니다.
   </div>
 
-  <h2>1. 수집하는 개인정보</h2>
-  <p>ForBand(이하 "앱")는 개인정보를 수집하지 않습니다. 회원가입이 없고, 앱은 외부 서버와 통신하지 않으며, 광고·분석 SDK를 포함하지 않습니다.</p>
+  <h2>1. 수집하는 정보</h2>
+  <p>ForBand(이하 "앱")는 회원가입이 없으며 이름, 연락처, 위치 등 개인 식별 정보를 수집하지 않습니다.
+  앱 개선 목적으로 Google Analytics for Firebase 및 Firebase Crashlytics를 통해
+  다음의 익명 데이터만 수집합니다.</p>
+  <ul>
+    <li>화면 조회와 기능 사용 이벤트(예: 메트로놈 시작, 튜너 사용)와 그 설정값(BPM, 템포 비율 등 숫자 값)</li>
+    <li>앱 오류·크래시 진단 정보 — 오류 발생 시점의 코드 위치(스택 트레이스), 직전에 사용한 화면·기능,
+      당시 설정값(숫자·고정 토큰) 등 진단에 필요한 기술 정보</li>
+    <li>기기 모델, OS 버전, 앱 버전, 언어·국가, 앱 인스턴스 식별자(기기 재설치 시 초기화되는 임의 식별자)</li>
+  </ul>
+  <p>곡 제목, 오디오, 녹음, 프리셋·세트리스트 이름, 메모 등 <strong>사용자가 만든 콘텐츠는 어떤 것도 수집하지 않습니다.</strong>
+  광고 식별자(IDFA)는 사용하지 않으며, 다른 앱·웹사이트를 넘나드는 추적을 하지 않습니다.</p>
 
   <h2>2. 기기 내에 저장되는 데이터</h2>
   <p>다음 데이터는 오직 사용자의 기기 안에만 저장되며, 개발자를 포함한 외부로 전송되지 않습니다.</p>
@@ -58,11 +69,14 @@
   </ul>
   <p>마이크 오디오가 기기 밖으로 전송되는 일은 없습니다. 마이크 권한은 iOS 설정에서 언제든 철회할 수 있습니다.</p>
 
-  <h2>4. 제3자 제공 및 공유</h2>
-  <p>수집하는 개인정보가 없으므로 제3자에게 제공하거나 공유하는 정보도 없습니다.</p>
+  <h2>4. 처리 위탁 및 제3자 제공</h2>
+  <p>익명 사용 통계와 크래시 진단 데이터의 수집·분석은 Google LLC(Google Analytics for Firebase,
+  Firebase Crashlytics)에 위탁 처리됩니다.
+  자세한 내용은 <a href="https://firebase.google.com/support/privacy">Firebase 개인정보 보호 문서</a>를 참고하세요.
+  그 외 어떠한 정보도 제3자에게 제공하거나 판매하지 않습니다.</p>
 
   <h2>5. 아동의 개인정보</h2>
-  <p>앱은 연령과 무관하게 어떠한 개인정보도 수집하지 않습니다.</p>
+  <p>앱은 연령과 무관하게 개인 식별 정보를 수집하지 않습니다.</p>
 
   <h2>6. 방침의 변경</h2>
   <p>이 방침이 변경되는 경우 이 페이지를 통해 고지합니다.</p>
@@ -73,15 +87,25 @@
   <div class="en">
     <div class="overline">ENGLISH</div>
     <h1 style="font-size:24px">Privacy Policy</h1>
-    <div class="date">Effective: July 23, 2026</div>
+    <div class="date">Effective: July 29, 2026</div>
 
     <div class="card">
-      <strong>Summary: ForBand does not collect any personal data.</strong><br>
-      No accounts, no servers, no ads, no analytics. Everything stays on your device.
+      <strong>Summary: ForBand does not collect personally identifiable information.</strong><br>
+      No accounts, no ads. Your songs and recordings stay on your device. We collect only
+      <strong>anonymous usage statistics and crash diagnostics</strong> to improve the app.
     </div>
 
     <h2>Data Collection</h2>
-    <p>ForBand collects no personal information. The app has no sign-up, communicates with no external servers, and contains no advertising or analytics SDKs.</p>
+    <p>ForBand has no sign-up and collects no personally identifiable information (no name, contacts, or location).
+    To improve the app, we collect anonymous data via Google Analytics for Firebase and Firebase Crashlytics:
+    screen views and feature-usage events with their numeric settings (e.g. BPM, tempo percentage); crash and error
+    diagnostics (stack traces, the screens and features used just before the error, and numeric settings at that moment);
+    plus device model, OS version, app version, language/country, and a random app-instance identifier
+    (reset when the app is reinstalled).
+    <strong>None of your content is ever collected</strong> — no song titles, audio, recordings, preset or setlist names, or notes.
+    The app does not use the advertising identifier (IDFA) and does not track you across other apps or websites.
+    Analytics and crash-report processing is handled by Google LLC — see the
+    <a href="https://firebase.google.com/support/privacy">Firebase Privacy documentation</a>.</p>
 
     <h2>On-Device Data</h2>
     <p>Audio files you import, practice recordings you create, and app settings (setlists, metronome presets, tuner preferences, per-song practice settings) are stored only on your device and are never transmitted anywhere. Deleting the app deletes all of this data.</p>
