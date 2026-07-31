@@ -15,7 +15,17 @@
   .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 80px; }
   .overline { font-size: 12px; letter-spacing: 3px; font-weight: 700; color: #3478F6; }
   h1 { font-size: 40px; font-weight: 900; letter-spacing: -0.5px; margin: 8px 0 6px; }
-  .tagline { font-size: 17px; color: #555; margin-bottom: 40px; }
+  .tagline { font-size: 17px; color: #555; margin-bottom: 28px; }
+  .appicon {
+    width: 88px; height: 88px; border-radius: 23%; display: block;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.14); margin-bottom: 20px;
+  }
+  .cta {
+    display: inline-block; padding: 15px 30px; border-radius: 14px;
+    background: #3478F6; color: #fff; font-size: 16px; font-weight: 700;
+    letter-spacing: -0.2px; margin-bottom: 40px;
+  }
+  .cta:active { opacity: 0.85; }
   h2 { font-size: 20px; font-weight: 800; margin: 44px 0 14px; }
   .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   @media (max-width: 540px) { .grid { grid-template-columns: 1fr; } }
@@ -37,16 +47,19 @@
 </head>
 <body>
 <div class="wrap">
+  <img class="appicon" src="icon.png" alt="ForBand 앱 아이콘" width="88" height="88">
   <div class="overline">FOR BAND PEOPLE</div>
   <h1>ForBand</h1>
   <p class="tagline">밴드 연습의 모든 것을 주머니에.<br>
   카피 연습부터 합주 준비까지, 밴드에 필요한 도구를 하나로 모았습니다.</p>
 
+  <a class="cta" href="https://apps.apple.com/app/id6793964973">App Store에서 받기</a>
+
   <h2>기능</h2>
   <div class="grid">
-    <div class="feature"><b>연습 플레이어</b><span>템포 50–150% · 피치 ±6반음 · A-B 구간 반복 · 파형 스크럽 · 구간 마커 · 스피드 트레이너 · 카운트인. 곡마다 연습 설정이 자동 저장돼요.</span></div>
+    <div class="feature"><b>연습 플레이어</b><span>템포 50–150% · 피치 ±6반음 · A-B 구간 반복 · 파형 스크럽 · 구간 마커 · 스피드 트레이너. 곡마다 연습 설정이 자동 저장돼요.</span></div>
     <div class="feature"><b>메트로놈</b><span>BPM 20–300, 변박(1–12/2·4·8)과 박별 강세·음소거, 서브디비전, 탭 템포, 곡별 프리셋, 박마다 진동.</span></div>
-    <div class="feature"><b>튜너</b><span>크로매틱 튜너에 기타·베이스·우쿨렐레 튜닝 프리셋, A4 캘리브레이션(435–445Hz), 줄 고정 모드, 기준음 재생.</span></div>
+    <div class="feature"><b>튜너</b><span>크로매틱 튜너에 기타·베이스·우쿨렐레 튜닝 프리셋, A4 캘리브레이션(415–466Hz), 줄 고정 모드, 기준음 재생과 피치 파이프.</span></div>
     <div class="feature"><b>연습 녹음</b><span>합주나 아이디어를 원탭으로 녹음하고 라이브러리에서 바로 다시 들어요.</span></div>
     <div class="feature"><b>세트리스트</b><span>공연 순서대로 곡을 담고, 곡이 끝나면 자동으로 다음 곡으로. 곡마다 키·큐 메모를 남길 수 있어요.</span></div>
     <div class="feature"><b>파일 가져오기</b><span>MP3 · M4A · WAV · FLAC. 파일 앱과 공유 시트에서 "ForBand로 열기"를 지원해요.</span></div>
